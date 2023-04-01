@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Login | PEF</title>
+		
+		<link rel="stylesheet" href="styles/style_login.css">
+		<link rel="icon" type="image/x-icon" href="images/icon.png">
+
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css"/>
+	</head>
+
+	<body>
+		<header>
+			<a href="#" class="logo"><img src="images/logo.png" width="150px" alt="PEF Logo"></a>
+
+			<nav>
+				<ul>
+					<li><a href="files/home.html">Home</a></li>
+					<li><a href="files/pef.html">The PEF</a>
+						<ul>
+							<li><a href="files/pef.html">About Us</a></li>
+							<li><a href="files/pef.html">History</a></li>
+						</ul>
+					</li>
+					<li><a href="files/why.html">Why this?</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="login">
+			<div class="wrapper"> 
+				<div class="container">
+					<h2 id="alert"></h2>
+					<h1 class="text">Login to post content.</h1>
+					<form id="form">
+						<div class="input-field">
+							<input type="text" class="input" placeholder="Username" id="username">
+						</div>
+				
+						<div class="input-field">
+							<input type="password" class="input" placeholder="Password" id="password">
+						</div>
+				
+						<div class="input-field">
+							<input type="submit" class="submit" value="Login" id="login" onsubmit="return validated()">
+						</div>
+					</form>
+
+					<div class="two-col">
+						<div class="left">
+					   		<input type="checkbox" name="" id="check">
+					   		<label for="check">Remember Me</label>
+						</div>
+						<div class="right">
+							<label><a href="#">Forgot password?</a></label>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="intro">
+			<div class="text">
+				<h1>The Philippine Eagle Foundation (PEF) focuses on restoring the declining Philippine Eagle (Pithecophaga jeffreyi) population and habitat, ensuring sustainable use of forest resources. The PEF initiates programs solely for the good of the Philippine Eagle. <br> <br> We have programs such as <a href="https://www.philippineeaglefoundation.org/conservation-services">Research and Conservation Program</a>, <a href="https://www.philippineeaglefoundation.org/conservation-breeding-2">Conservation Breeding</a>, <a href="https://www.philippineeaglefoundation.org/education">Conservation Education</a>, and <a href="https://www.philippineeaglefoundation.org/conservation-services">Development Program</a>. <br> <br>Joining us would be a large contribution to spreading awareness and information regarding the current state of our Philippine Eagle. Be an advocate for PEF!</h1>
+			</div>
+		</section>
+
+		<footer>
+			<div class="icons">
+				<a href="https://www.facebook.com/phileaglefdn"><img id="fb" src="images/img_trans.png" width="1" height="1"></a>
+				<a href="https://www.instagram.com/phileaglefdn/"><img id="ig" src="images/img_trans.png" width="1" height="1"></a></a>
+			</div>
+
+			<ul class="list">
+				<li>
+					<a href="#" class="hvr-grow">Home</a>
+				</li>
+				<li>
+					<a href="https://www.philippineeaglefoundation.org/donate" class="hvr-grow">Donate</a>
+				</li>
+				<li>
+					<a href="https://www.philippineeaglefoundation.org/annual-report-newsletter" class="hvr-grow">Annual Report</a>
+				</li>
+				<li>
+					<a href="https://www.philippineeaglefoundation.org/resources" class="hvr-grow">Blog</a>
+				</li>
+				<li>
+					<a href="https://www.philippineeaglefoundation.org/volunteer" class="hvr-grow">Volunteer Program</a>
+				</li>
+			</ul>
+
+			<p class="copyright"> 
+				Bedez, John Gabriel S. | 2022
+			</p>
+		</footer>
+		<script src="scripts/scripts.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,131 @@
+@import url(style_website.css);
+
+.login {
+    position: relative;
+    min-height: 100vh;
+    background-color: var(--green);;
+}
+
+.login::before {
+    content: "";
+	background: url(../images/login.png) no-repeat;
+    opacity: 0.5;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.login .wrapper {
+    position: relative;
+    backdrop-filter: blur(4px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.login .wrapper .container {
+	width: 550px;
+	display: flex;
+	flex-direction: column;
+	padding: 0 15px 0 15px;
+}
+
+.text {
+    color: var(--beige);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 20px 0;
+}
+
+#alert {
+    color: rgb(210, 231, 108);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0 10px 0;
+}
+
+.input-field .input {
+    height: 55px;
+    width: 100%;
+    border-radius: 30px;
+    color: var(--darkgreen);
+    font-size: 18px;
+    padding: 0 0 0 50px;
+	margin-bottom: 12px;
+}
+
+#username {
+    background: var(--beige);
+}
+
+#password {
+    background: var(--beige);
+}
+
+.input-field .input:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.submit {
+    border-radius: 30px;
+    font-size: 18px;
+    height: 55px;
+    width: 100%;
+    color: var(--beige);
+    background: var(--darkgreen);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.two-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--beige);
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.left {
+    display: flex;
+}
+
+.two-col label a {
+    text-decoration: none;
+	color: var(--beige);
+}
+
+.intro {
+    padding: 50px 60px;
+	margin-top: 16px;
+    margin-bottom: 16px;
+	width: 100%;
+	background-color: var(--darkgreen);
+    text-align: center;
+}
+
+.intro .text {
+	color: white;
+	font-size: 1.57rem;
+	width: 100%;
+}
+
+.intro .text a {
+	color: var(--beige);
+}
+
+.intro .text a:hover {
+	text-decoration: underline;
+}
